@@ -1,0 +1,21 @@
+.block1 {
+  float: left;
+}
+
+.block2 {
+  float: right;
+}
+
+.block3 {
+  z-index: 9999999999999;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  text-align: center;
+}
+
+.block4 {
+  position: absolute;
+  left: 4px;
+  bottom: 5px;
+}
