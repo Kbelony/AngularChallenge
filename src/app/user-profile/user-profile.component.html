@@ -1,0 +1,8 @@
+<img [src]="photo">
+<h2>nom : {{name}}</h2>
+<h2>Prénom : {{firstName}}</h2>
+<h2 *ngIf= "showMe">Age : {{age}}</h2>
+<button (click)="toggleTag()">button</button>
+<h2>{{quote}}</h2>
+<input type="text" [(ngModel)]="quote">
+
